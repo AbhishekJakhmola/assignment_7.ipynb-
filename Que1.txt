@@ -1,0 +1,13 @@
+Q.1 - Create a dataframe with your name , age , mail id and phone number and add your friends’s information to the same.  
+
+
+import  pandas  as  pd
+import  numpy  as  np
+
+df = pd.DataFrame({
+    'Name': ['Abhishek', 'Sumit', 'Preeti', 'Himanshu'],
+    'Age': ['21', '19', '20', '22'],
+    'Email': ['abhishek@gmail.com', 'sumit@gmail.com', 'preeti@yahoo.com', 'himanshu@gmail.com'],
+    'Number':['9988776655','9089786758','8902554361','7898967541']
+})
+print(df)
