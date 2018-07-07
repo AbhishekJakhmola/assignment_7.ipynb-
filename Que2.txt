@@ -1,0 +1,21 @@
+Q.2 - Download the dataset from this link 
+
+import pandas as pd
+
+df = pd.read_csv('weather.csv')
+
+print("First 5 rows")
+df.head()
+
+print("First 10 rows")
+df.head(10)
+
+print("Basic Statistics")
+df.describe()
+
+print("Last 5 rows ")
+df.tail()
+
+print("2nd column")
+df1 = pd.DataFrame(df, columns=['Location'])
+df1.describe()
